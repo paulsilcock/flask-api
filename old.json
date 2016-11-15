@@ -1,0 +1,83 @@
+{
+  "repository": {
+    "slug": "blah",
+    "id": 1,
+    "name": "blah",
+    "scmId": "git",
+    "state": "AVAILABLE",
+    "statusMessage": "Available",
+    "forkable": true,
+    "project": {
+      "key": "DEMO",
+      "id": 1,
+      "name": "Demo",
+      "public": false,
+      "type": "NORMAL"
+    },
+    "public": false
+  },
+  "refChanges": [
+    {
+      "refId": "refs/heads/master",
+      "fromHash": "d190b50d3a26c4e1ac412a6a1a8019b5834fd1f2",
+      "toHash": "48d689f128a7e447b4d153380c995589c8f2b039",
+      "type": "UPDATE"
+    }
+  ],
+  "changesets": {
+    "size": 1,
+    "limit": 100,
+    "isLastPage": true,
+    "values": [
+      {
+        "fromCommit": {
+          "id": "d190b50d3a26c4e1ac412a6a1a8019b5834fd1f2",
+          "displayId": "d190b50d3a2"
+        },
+        "toCommit": {
+          "id": "48d689f128a7e447b4d153380c995589c8f2b039",
+          "displayId": "48d689f128a",
+          "author": {
+            "name": "Paul",
+            "emailAddress": "ps88uk@gmail.com"
+          },
+          "authorTimestamp": 1478911738000,
+          "message": "dummy commit",
+          "parents": [
+            {
+              "id": "d190b50d3a26c4e1ac412a6a1a8019b5834fd1f2",
+              "displayId": "d190b50d3a2"
+            }
+          ]
+        },
+        "changes": {
+          "size": 1,
+          "limit": 100,
+          "isLastPage": true,
+          "values": [
+            {
+              "contentId": "253b5a6663c04dbf04780931bb793e4b0b317033",
+              "fromContentId": "ec3312ab4b1b15bcc77c6ab3c3dd2b6fadcb36aa",
+              "path": {
+                "components": [ "README.md" ],
+                "parent": "",
+                "name": "README.md",
+                "extension": "md",
+                "toString": "README.md"
+              },
+              "executable": false,
+              "percentUnchanged": -1,
+              "type": "MODIFY",
+              "nodeType": "FILE",
+              "srcExecutable": false,
+              "links": { "self": [ { "href": "http://localhost:7990/projects/DEMO/repos/blah/commits/48d689f128a7e447b4d153380c995589c8f2b039#README.md" } ] }
+            }
+          ],
+          "start": 0
+        },
+        "links": { "self": [ { "href": "http://localhost:7990/projects/DEMO/repos/blah/commits/48d689f128a7e447b4d153380c995589c8f2b039#README.md" } ] }
+      }
+    ],
+    "start": 0
+  }
+}

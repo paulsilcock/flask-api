@@ -1,0 +1,18 @@
+{
+  "repository": {
+    "scmId": "git",
+    "project": {
+      "key": "DEMO",
+      "name": "Demo"
+    },
+    "slug": "blah",
+    "public": false,
+    "ownerName": "DEMO",
+    "fullName": "DEMO/blah",
+    "owner": {
+      "username": "DEMO",
+      "displayName": "DEMO"
+    }
+  }
+} 
+
